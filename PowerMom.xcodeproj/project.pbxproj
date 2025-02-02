@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AA12E81F2D4FC91B00897BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA12E8052D4FC91A00897BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA12E80C2D4FC91A00897BD7;
+			remoteInfo = PowerMom;
+		};
+		AA12E8292D4FC91B00897BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA12E8052D4FC91A00897BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA12E80C2D4FC91A00897BD7;
+			remoteInfo = PowerMom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA12E80D2D4FC91A00897BD7 /* PowerMom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerMom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA12E81E2D4FC91B00897BD7 /* PowerMomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerMomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA12E8282D4FC91B00897BD7 /* PowerMomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerMomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA12E80F2D4FC91A00897BD7 /* PowerMom */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PowerMom;
+			sourceTree = "<group>";
+		};
+		AA12E8212D4FC91B00897BD7 /* PowerMomTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PowerMomTests;
+			sourceTree = "<group>";
+		};
+		AA12E82B2D4FC91B00897BD7 /* PowerMomUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PowerMomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA12E80A2D4FC91A00897BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E81B2D4FC91B00897BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E8252D4FC91B00897BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA12E8042D4FC91A00897BD7 = {
+			isa = PBXGroup;
+			children = (
+				AA12E80F2D4FC91A00897BD7 /* PowerMom */,
+				AA12E8212D4FC91B00897BD7 /* PowerMomTests */,
+				AA12E82B2D4FC91B00897BD7 /* PowerMomUITests */,
+				AA12E80E2D4FC91A00897BD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA12E80E2D4FC91A00897BD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA12E80D2D4FC91A00897BD7 /* PowerMom.app */,
+				AA12E81E2D4FC91B00897BD7 /* PowerMomTests.xctest */,
+				AA12E8282D4FC91B00897BD7 /* PowerMomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA12E80C2D4FC91A00897BD7 /* PowerMom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA12E8322D4FC91B00897BD7 /* Build configuration list for PBXNativeTarget "PowerMom" */;
+			buildPhases = (
+				AA12E8092D4FC91A00897BD7 /* Sources */,
+				AA12E80A2D4FC91A00897BD7 /* Frameworks */,
+				AA12E80B2D4FC91A00897BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA12E80F2D4FC91A00897BD7 /* PowerMom */,
+			);
+			name = PowerMom;
+			packageProductDependencies = (
+			);
+			productName = PowerMom;
+			productReference = AA12E80D2D4FC91A00897BD7 /* PowerMom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA12E81D2D4FC91B00897BD7 /* PowerMomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA12E8352D4FC91B00897BD7 /* Build configuration list for PBXNativeTarget "PowerMomTests" */;
+			buildPhases = (
+				AA12E81A2D4FC91B00897BD7 /* Sources */,
+				AA12E81B2D4FC91B00897BD7 /* Frameworks */,
+				AA12E81C2D4FC91B00897BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA12E8202D4FC91B00897BD7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA12E8212D4FC91B00897BD7 /* PowerMomTests */,
+			);
+			name = PowerMomTests;
+			packageProductDependencies = (
+			);
+			productName = PowerMomTests;
+			productReference = AA12E81E2D4FC91B00897BD7 /* PowerMomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA12E8272D4FC91B00897BD7 /* PowerMomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA12E8382D4FC91B00897BD7 /* Build configuration list for PBXNativeTarget "PowerMomUITests" */;
+			buildPhases = (
+				AA12E8242D4FC91B00897BD7 /* Sources */,
+				AA12E8252D4FC91B00897BD7 /* Frameworks */,
+				AA12E8262D4FC91B00897BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA12E82A2D4FC91B00897BD7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA12E82B2D4FC91B00897BD7 /* PowerMomUITests */,
+			);
+			name = PowerMomUITests;
+			packageProductDependencies = (
+			);
+			productName = PowerMomUITests;
+			productReference = AA12E8282D4FC91B00897BD7 /* PowerMomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA12E8052D4FC91A00897BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AA12E80C2D4FC91A00897BD7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AA12E81D2D4FC91B00897BD7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA12E80C2D4FC91A00897BD7;
+					};
+					AA12E8272D4FC91B00897BD7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA12E80C2D4FC91A00897BD7;
+					};
+				};
+			};
+			buildConfigurationList = AA12E8082D4FC91A00897BD7 /* Build configuration list for PBXProject "PowerMom" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA12E8042D4FC91A00897BD7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA12E80E2D4FC91A00897BD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA12E80C2D4FC91A00897BD7 /* PowerMom */,
+				AA12E81D2D4FC91B00897BD7 /* PowerMomTests */,
+				AA12E8272D4FC91B00897BD7 /* PowerMomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA12E80B2D4FC91A00897BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E81C2D4FC91B00897BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E8262D4FC91B00897BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA12E8092D4FC91A00897BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E81A2D4FC91B00897BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E8242D4FC91B00897BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA12E8202D4FC91B00897BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA12E80C2D4FC91A00897BD7 /* PowerMom */;
+			targetProxy = AA12E81F2D4FC91B00897BD7 /* PBXContainerItemProxy */;
+		};
+		AA12E82A2D4FC91B00897BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA12E80C2D4FC91A00897BD7 /* PowerMom */;
+			targetProxy = AA12E8292D4FC91B00897BD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA12E8302D4FC91B00897BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA12E8312D4FC91B00897BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA12E8332D4FC91B00897BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PowerMom/PowerMom.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PowerMom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artskip.PowerMom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA12E8342D4FC91B00897BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PowerMom/PowerMom.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PowerMom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artskip.PowerMom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA12E8362D4FC91B00897BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artskip.PowerMomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerMom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PowerMom";
+			};
+			name = Debug;
+		};
+		AA12E8372D4FC91B00897BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artskip.PowerMomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerMom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PowerMom";
+			};
+			name = Release;
+		};
+		AA12E8392D4FC91B00897BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artskip.PowerMomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PowerMom;
+			};
+			name = Debug;
+		};
+		AA12E83A2D4FC91B00897BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artskip.PowerMomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PowerMom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA12E8082D4FC91A00897BD7 /* Build configuration list for PBXProject "PowerMom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12E8302D4FC91B00897BD7 /* Debug */,
+				AA12E8312D4FC91B00897BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA12E8322D4FC91B00897BD7 /* Build configuration list for PBXNativeTarget "PowerMom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12E8332D4FC91B00897BD7 /* Debug */,
+				AA12E8342D4FC91B00897BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA12E8352D4FC91B00897BD7 /* Build configuration list for PBXNativeTarget "PowerMomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12E8362D4FC91B00897BD7 /* Debug */,
+				AA12E8372D4FC91B00897BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA12E8382D4FC91B00897BD7 /* Build configuration list for PBXNativeTarget "PowerMomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12E8392D4FC91B00897BD7 /* Debug */,
+				AA12E83A2D4FC91B00897BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA12E8052D4FC91A00897BD7 /* Project object */;
+}
